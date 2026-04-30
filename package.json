@@ -1,0 +1,23 @@
+{
+  "name": "trend",
+  "version": "1.0.0",
+  "description": "Simple Express app running on port 3000",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Vennilavanguvi/Trend.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Vennilavanguvi/Trend/issues"
+  },
+  "homepage": "https://github.com/Vennilavanguvi/Trend#readme",
+  "dependencies": {
+    "express": "^5.2.1"
+  }
+}
