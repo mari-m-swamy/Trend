@@ -18,7 +18,7 @@ GitHub Webhook
 Jenkins Pipeline
 │
 ├── Build Docker Image
-├── Push Image to DockerHub
+├── Push Image to AWS ECR
 ├── Deploy to AWS EKS
 ▼
 Amazon EKS Cluster
@@ -36,7 +36,7 @@ Prometheus + Grafana
 - Git
 - GitHub
 - Docker
-- DockerHub
+- AWS ECR
 - Jenkins
 - Terraform
 - AWS EC2
@@ -54,7 +54,7 @@ Prometheus + Grafana
 - Infrastructure as Code using Terraform
 - Jenkins Declarative Pipeline
 - Automated CI/CD
-- DockerHub Image Registry
+- AWS ECR 
 - Kubernetes Deployment
 - GitHub Webhook Integration
 - Monitoring using Prometheus and Grafana
